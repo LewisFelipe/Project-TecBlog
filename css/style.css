@@ -1,0 +1,158 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background: #313131;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1
+{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+h2
+{
+    color: #f7b600;
+}
+
+h3
+{
+    color: white;
+    background: #313131;
+
+}
+
+.white
+{
+    color: white;
+}
+
+#header
+{
+    background: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#logo, #navbar
+{
+    padding: 10px;
+}
+
+#main_container
+{
+    width: 920px;
+    margin: 0 auto;
+}
+
+#posts_container
+{
+    width: 660px;
+    float: left;
+}
+
+.post
+{
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.post img
+{
+    width: 620px;
+}
+
+.post a:link, .post a:visited
+{
+    padding-left: 0;
+}
+
+.post a:hover
+{
+    background: none;
+}
+
+.post_date
+{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#lateral_navbar
+{
+    width: 240px;
+    float: right;
+    padding-top: 20px;
+}
+
+.lateral_container
+{
+    background: #4e4e4e;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.lateral_post
+{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px solid #CCC;
+}
+
+.lateral_container a:link, .lateral_container a:visited
+{
+    color: #f7b600;
+}
+
+.lateral_container a:hover
+{
+    color: #CCC;
+}
+
+#footnote
+{
+    clear: both;
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+a:link, a:visited
+{
+    color: #FFF;
+    padding-left: 0;
+}
+
+a:hover
+{
+    color: #f7b600;
+    background: none;
+}
+
+/* INICIO ~Formatação da navbar */
+#navbar a:link, #navbar a:visited
+{
+    padding: 8px 12px;
+}
+
+#navbar a:hover
+{
+    background: #313131;
+}
+/* FIM ~Formatação da navbar */
